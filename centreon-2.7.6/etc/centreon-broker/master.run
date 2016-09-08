@@ -6,11 +6,6 @@
 # The first line the daemon central-cbd is started with start action from
 # /etc/init.d/cbd and it's reload by action reload of init script
 #
-# The second line the daemon central-rrd is started but it is not reload by
-# action in /etc/cbd reload
-#
-#
 # daemon_name	daemon_config	running		reload
 central-rrd	central-rrd.xml	y	y
 central-broker	central-broker.xml	y	y
-
